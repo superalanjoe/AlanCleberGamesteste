@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Cleber Games</title>
+    <img src="image/capa.png" alt="Logo" style="width: 2000px; height: auto;">
+
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<style>
+    /* Reset básico */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Estilos do cabeçalho */
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        color: #fff;
+    }
+
+    header p {
+        color: #ccc;
+        font-size: 1.2em;
+        margin-top: 5px;
+    }
+
+    /* Navegação */
+    nav {
+        background-color: #555;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 1.1em;
+    }
+
+    nav a:hover {
+        color: #ddd;
+    }
+
+    /* Seção de destaques */
+    .destaques {
+        padding: 20px;
+        text-align: center;
+        background-color: #f4f4f4;
+    }
+
+    .destaques h2 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .destaques p {
+        color: #666;
+        font-size: 1em;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* Rodapé */
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    footer a {
+        color: #ccc;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    footer a:hover {
+        color: #fff;
+    }
+</style>
+</head>
+<body>
+
+<!-- Cabeçalho -->
+<header>
+    <h1>Alan Cleber Games</h1>
+    <p style="color: #ccc;">Bem-vindo ao Alan Cleber Games - Onde o universo dos jogos ganha vida!</p>
+    
+</header>
+<body>
+    <header>
+        <h1>Notícias - Alan Cleber Games</h1>
+        <h2>Fique por dentro das últimas novidades do mundo dos jogos e aproveite as melhores dicas e análises!</h2>
+    </header>
+    <nav>
+        <a href="site.html">Página Inicial</a>
+        <a href="Ofertas.html">Ofertas</a>
+        <a href="noticias.html">Notícias</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+        <section class="destaques">
+            <h2>Últimas Notícias do Mundo Gamer</h2>
+            <p>Fique por dentro das atualizações e novidades do universo dos games.</p>
+            <ol><a href="https://www.gamevicio.com/" target="_blank">Atualizações Sobre Games</a></ol>
+            <ol><a href="https://www.adrenaline.com.br/" target="_blank">Atualizações Sobre HardWare</a></ol>
+            <ol><a href="https://meups.com.br/" target="_blank">Atualizações Sobre Playstation</a></ol>
+            <ol><a href="https://meuxbox.com.br/" target="_blank">Atualizações Sobre Xbox</a></ol>
+        </section>
+  <!-- Rodapé -->
+  <footer>
+    <p>Redes Sociais:</p>
+    <a href="https://www.linkedin.com/in/alancleber/" target="_blank">linkedin</a> |
+    <a href="https://www.instagram.com/alancleber" target="_blank">Instagram</a> |
+    <a href="https://www.twitter.com/superalanjoe" target="_blank">Twitter</a> |
+    <a href="https://www.facebook.com/profile.php?id=100085308420403" target="_blank">Facebook</a> |
+    <a href="https://www.tiktok.com/@alanclebergames5" target="_blank">tiktok</a> |
+    <a href="https://www.youtube.com/@AlanCleberGames/videos" target="_blank">YouTube</a> |
+    <a href="https://www.kwai.com/@AlanClebergames" target="_blank">kwai</a> 
+    <p>Contato: <span id="link-midia-kit"></span></p>
+    <footer>
+        <script>
+            // URL original do Google Docs
+            const originalLink = "https://docs.google.com/presentation/d/12Q6z3AxQGNlfOj6fDlhb4cnDoKcvhD1f/edit?usp=sharing&ouid=115949805566451075227&rtpof=true&sd=true";
+            
+            // Texto para o link encurtado
+            const linkText = "Clique aqui para acessar o MIDIA KIT";
+            
+            // Elemento onde o link será inserido
+            const linkContainer = document.getElementById("link-midia-kit");
+            
+            // Criação do link HTML com JavaScript
+            linkContainer.innerHTML = `<a href="${originalLink}" target="_blank">${linkText}</a>`;
+        </script>
+    </footer>
+</body>
+</html>

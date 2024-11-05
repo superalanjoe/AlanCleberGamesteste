@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Cleber Games</title>
+    
+    <img src="image/capa.png" alt="Logo" style="width: 2000px; height: auto;">
+    
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="estilos.css">
+    
+    
+
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilos do cabeçalho */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #fff;
+        }
+
+        header p {
+            color: #ccc;
+            font-size: 1.2em;
+            margin-top: 5px;
+        }
+
+        /* Navegação */
+        nav {
+            background-color: #555;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            color: #ddd;
+        }
+
+        /* Seção de destaques */
+        .destaques {
+            padding: 20px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        .destaques h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .destaques p {
+            color: #666;
+            font-size: 1em;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ccc;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Alan Cleber Games</h1>
+        <p style="color: #ccc;">Bem-vindo ao Alan Cleber Games - Onde o universo dos jogos ganha vida!</p>
+    </header>
+
+<!-- Navegação -->
+<nav>
+    <a href="site.html">Página Inicial</a> <!-- Direciona para a seção com o id "inicio" -->
+    <a href="Ofertas.html">Alan Cleber Games Ofertas</a> <!-- Exemplo de link para uma nova seção -->
+    <a href="noticias.html">Alan Cleber Games News</a>
+    <a href="sobre.html">Sobre Alan Cleber Games</a>
+    </nav>
+
+    <!-- Seção de Destaques -->
+    <section class="destaques" id="inicio">
+        <h2>Destaques</h2>
+        <p>
+            <img src="image/logo.png" alt="Logo" style="width: 200px; height: auto;">
+            O canal Alan Cleber Games foi criado em 2019 visando alcançar os apaixonados por games no Brasil que não tinham um local dedicado para se informar e trocar experiências.
+Atualmente, o canal é uma das referências de informações sobre jogos no Brasil, com mais de 77 mil inscritos.
+Política de links de afiliados
+Podemos publicar links de afiliados no Alan Cleber Games, e assim receber pequenos valores em comissão sobre possíveis vendas para determinados varejista, após você clicar nos links oferecidos por nós.
+
+O Alan Cleber Games participa do Programa de Afiliados da Amazon,Mercado livre e Aliexpress além de possuir parcerias com lojas como Thunderkeys, Nuuvem, Green Man Gaming, e também com a Epic Games.
+
+
+        </p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Redes Sociais:</p>
+        <a href="https://www.linkedin.com/in/alancleber/" target="_blank">linkedin</a> |
+        <a href="https://www.instagram.com/alancleber" target="_blank">Instagram</a> |
+        <a href="https://www.twitter.com/superalanjoe" target="_blank">Twitter</a> |
+        <a href="https://www.facebook.com/profile.php?id=100085308420403" target="_blank">Facebook</a> |
+        <a href="https://www.tiktok.com/@alanclebergames5" target="_blank">tiktok</a> |
+        <a href="https://www.youtube.com/@AlanCleberGames/videos" target="_blank">YouTube</a> |
+        <a href="https://www.kwai.com/@AlanClebergames" target="_blank">kwai</a> 
+        <p>Contato: <span id="link-midia-kit"></span></p>
+        <footer>
+            <script>
+                // URL original do Google Docs
+                const originalLink = "https://docs.google.com/presentation/d/12Q6z3AxQGNlfOj6fDlhb4cnDoKcvhD1f/edit?usp=sharing&ouid=115949805566451075227&rtpof=true&sd=true";
+                
+                // Texto para o link encurtado
+                const linkText = "Clique aqui para acessar o MIDIA KIT";
+                
+                // Elemento onde o link será inserido
+                const linkContainer = document.getElementById("link-midia-kit");
+                
+                // Criação do link HTML com JavaScript
+                linkContainer.innerHTML = `<a href="${originalLink}" target="_blank">${linkText}</a>`;
+            </script>
+        </footer>
+
+</body>
+</html>
