@@ -1,18 +1,19 @@
 /* CSS */
 
-.logo {
-    width: 150px; /* define a largura da imagem */
-    height: auto; /* ajusta a altura automaticamente */
-    display: block; /* remove qualquer espaço ao redor da imagem */
-    margin: 0 auto; /* centraliza a imagem */
-}
 /* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    
+}
+
+/* Logo */
+.logo {
+    width: 150px; /* define a largura da imagem */
+    height: auto; /* ajusta a altura automaticamente */
+    display: block; /* remove qualquer espaço ao redor da imagem */
+    margin: 0 auto; /* centraliza a imagem */
 }
 
 /* Estilos do cabeçalho */
@@ -51,25 +52,6 @@ nav a:hover {
     color: #ddd;
 }
 
-/* Seção de destaques */
-.destaques {
-    padding: 20px;
-    text-align: center;
-    background-color: #f4f4f4;
-}
-
-.destaques h2 {
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.destaques p {
-    color: #666;
-    font-size: 1em;
-    max-width: 800px;
-    margin: auto;
-}
-
 /* Rodapé */
 footer {
     background-color: #333;
@@ -87,15 +69,6 @@ footer a {
 
 footer a:hover {
     color: #fff;
-}
-
-/* Estilos da seção de ofertas */
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 /* Estilos da seção de ofertas */
@@ -120,19 +93,66 @@ footer a:hover {
     margin: 0 auto 20px;
 }
 
-/* Estilos para links da lista de ofertas */
 .ofertas ol {
-    list-style: none; /* Remove os marcadores */
+    list-style: none;
     padding: 10px 0;
 }
 
 .ofertas a {
-    color: #0073e6; /* Cor do link */
+    color: #0073e6;
     font-size: 1.1em;
     text-decoration: none;
 }
 
 .ofertas a:hover {
-    color: #005bb5; /* Cor ao passar o mouse */
+    color: #005bb5;
     text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header, footer, .ofertas {
+        padding: 15px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+        font-size: 1em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    .ofertas p {
+        font-size: 0.9em;
+    }
+
+    .logo {
+        width: 120px; /* Ajusta o tamanho da logo para telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 0.9em;
+    }
+
+    nav a {
+        font-size: 0.9em;
+        padding: 5px;
+    }
+
+    .ofertas p {
+        font-size: 0.8em;
+    }
+
+    .logo {
+        width: 100px;
+    }
 }
