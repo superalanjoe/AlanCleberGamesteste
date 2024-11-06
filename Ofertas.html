@@ -89,8 +89,55 @@
     }
 
     footer a:hover {
-        color: #fff;
+        color: #fff;  
     }
+    /* Responsividade */
+@media (max-width: 768px) {
+    header, footer, .ofertas {
+        padding: 15px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+        font-size: 1em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    .ofertas p {
+        font-size: 0.9em;
+    }
+
+    .logo {
+        width: 120px; /* Ajusta o tamanho da logo para telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 0.9em;
+    }
+
+    nav a {
+        font-size: 0.9em;
+        padding: 5px;
+    }
+
+    .ofertas p {
+        font-size: 0.8em;
+    }
+
+    .logo {
+        width: 100px;
+    }
+}
 </style>
 </head>
 <body>
@@ -105,7 +152,7 @@
         <h1>Ofertas - Alan Cleber Games</h1>
     </header>
     <nav>
-        <a href="site.html">Página Inicial</a>
+        <a href="index.html">Página Inicial</a>
         <a href="Ofertas.html">Ofertas</a>
         <a href="noticias.html">Notícias</a>
         <a href="sobre.html">Sobre</a>
@@ -143,5 +190,7 @@
                 linkContainer.innerHTML = `<a href="${originalLink}" target="_blank">${linkText}</a>`;
             </script>
         </footer>
+</body>
+</html>
 </body>
 </html>
